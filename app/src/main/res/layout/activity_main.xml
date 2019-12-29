@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/navidad1" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:fontFamily="@font/snowballs"
+        android:text="@string/felicidades"
+        android:textColor="#FFFFFF"
+        android:textSize="65sp"
+        android:textStyle="normal"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/snowballs"
+        android:text="@string/de_parte_de"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="60sp"
+        android:textStyle="normal"
+        android:visibility="visible"
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="334dp"
+        android:fontFamily="@font/snowballs"
+        android:text="@string/rub_n"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="65sp"
+        android:textStyle="normal"
+        android:visibility="visible"
+
+        />
+
+
+</RelativeLayout>
